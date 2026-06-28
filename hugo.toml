@@ -1,0 +1,40 @@
+baseURL = "https://DeepthiN4.github.io/"
+languageCode = "en-us"
+title = "Deepthi Nayak"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Deepthi Nayak"
+  description = "Mixed tech topics — embedded Linux, software, and everything in between."
+  defaultTheme = "auto"          # auto switches light/dark with system
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Deepthi 👋"
+    Content = "I write whatever I'm tinkering with, you can read."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = " "
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
